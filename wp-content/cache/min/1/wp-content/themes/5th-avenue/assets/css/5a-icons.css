@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@font-face {
+  font-display: swap;
+  font-family: "5ave-font";
+  src: url(../../../../../../../../themes/5th-avenue/assets/css/fonts/5ave-font.eot);
+  src: url("../../../../../../../../themes/5th-avenue/assets/css/fonts/5ave-font.eot?#iefix")
+      format("embedded-opentype"),
+    url(../../../../../../../../themes/5th-avenue/assets/css/fonts/5ave-font.woff)
+      format("woff"),
+    url(../../../../../../../../themes/5th-avenue/assets/css/fonts/5ave-font.ttf)
+      format("truetype"),
+    url("../../../../../../../../themes/5th-avenue/assets/css/fonts/5ave-font.svg#5ave-font")
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+[data-icon]:before {
+  font-family: "5ave-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "5ave-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-5ave-bag-1:before {
+  content: "\61";
+}
+.icon-5ave-heart:before {
+  content: "\62";
+}
+.icon-5ave-search-3:before {
+  content: "\63";
+}
+.icon-5ave-search-2:before {
+  content: "\64";
+}
+.icon-5ave-search-1:before {
+  content: "\65";
+}
+.icon-5ave-suitcase:before {
+  content: "\67";
+}
+.icon-5ave-myaccount:before {
+  content: "\68";
+}
+.icon-5ave-cart-empty:before {
+  content: "\66";
+}
+.icon-heart:before {
+  content: "\69";
+}

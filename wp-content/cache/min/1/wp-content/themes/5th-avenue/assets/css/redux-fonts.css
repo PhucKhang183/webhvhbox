@@ -1,0 +1,56 @@
+@font-face {
+  font-display: swap;
+  font-family: "butler_black-webfont";
+  src: url(../../../../../../../../themes/5th-avenue/assets/fonts/butler_black-webfont.woff)
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: "butler_bold-webfont";
+  src: url(../../../../../../../../themes/5th-avenue/assets/fonts/butler_bold-webfont.woff)
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: "butler_extrabold-webfont";
+  src: url(../../../../../../../../themes/5th-avenue/assets/fonts/butler_extrabold-webfont.woff)
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: "butler_light-webfont";
+  src: url(../../../../../../../../themes/5th-avenue/assets/fonts/butler_light-webfont.woff)
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: "butler_medium-webfont";
+  src: url(../../../../../../../../themes/5th-avenue/assets/fonts/butler_medium-webfont.woff)
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: "butler_regular-webfont";
+  src: url(../../../../../../../../themes/5th-avenue/assets/fonts/butler_regular-webfont.woff)
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: "butler_ultra_light-webfont";
+  src: url(../../../../../../../../themes/5th-avenue/assets/fonts/butler_ultra_light-webfont.woff)
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,328 @@
+.uacf7-multistep-progressbar-wraper {
+  width: 25%;
+  padding: 30px 20px;
+  background: #f8f8f8;
+}
+.uacf7-multistep-form-wraper {
+  width: 75%;
+  padding-left: 20px;
+}
+@media (max-width: 767px) {
+  .uacf7-multistep-progressbar-wraper {
+    display: none !important;
+  }
+  .uacf7-multistep-form-wraper {
+    width: 100%;
+    padding: 0;
+  }
+}
+.uacf7-multistep-row {
+  display: flex;
+}
+.uacf7-multistep-row .uacf7-multistep-progressbar-wraper {
+  display: flex;
+}
+.uacf7-multistep-row .uacf7-multistep-progressbar-wraper.full-height {
+  align-items: flex-start;
+}
+.uacf7-multistep-row .steps-row.setup-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.current-step-title .step-title {
+  display: none;
+}
+.current-step-title .step-title.step-1 {
+  display: block;
+}
+.current-step-title .step-title {
+  color: #02044a;
+  font-weight: 600;
+  font-size: 22px;
+}
+.uacf7-multistep-row .uacf7-steps.steps-form {
+  display: flex;
+}
+.uacf7-multistep-row .steps-form {
+  display: table;
+  width: auto;
+}
+.uacf7-multistep-row .steps-form .steps-row .steps-step {
+  display: flex;
+}
+.uacf7-multistep-row .full-height .steps-form .steps-row .steps-step {
+  padding: 30px 0;
+}
+.uacf7-multistep-row
+  .full-height
+  .steps-form
+  .steps-row
+  .steps-step:first-child {
+  padding-top: 0 !important;
+}
+.uacf7-multistep-row
+  .full-height
+  .steps-form
+  .steps-row
+  .steps-step:last-child {
+  padding-bottom: 0 !important;
+}
+.uacf7-multistep-row
+  .full-height
+  .steps-form
+  .steps-row
+  .steps-step:last-child
+  a {
+  margin-top: 0 !important;
+}
+.uacf7-multistep-row
+  .full-height
+  .steps-form
+  .steps-row
+  .steps-step:first-child
+  a {
+  margin-top: -30px !important;
+}
+.uacf7-multistep-row .steps-form .steps-row .steps-step p {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  text-align: left;
+  margin-right: 10px;
+  color: #02044a;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.progressbar-style-3 .steps-form .steps-row .steps-step .btn-circle,
+.progressbar-style-2 .steps-form .steps-row .steps-step .btn-circle,
+.progressbar-style-6 .steps-form .steps-row .steps-step .btn-circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -15px;
+  -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%),
+    0 4px 15px 0 rgb(0 0 0 / 15%);
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  color: #02044a;
+  background: #fff;
+}
+.progressbar-style-2
+  .steps-form
+  .steps-row
+  .steps-step
+  .btn-circle.uacf7-btn-active,
+.progressbar-style-6
+  .steps-form
+  .steps-row
+  .steps-step
+  .btn-circle.uacf7-btn-active {
+  color: #fff;
+  background-color: #02044a;
+}
+.progressbar-style-3 .steps-form .steps-row .steps-step .btn-circle img,
+.progressbar-style-2 .steps-form .steps-row .steps-step .btn-circle img,
+.progressbar-style-6 .steps-form .steps-row .steps-step .btn-circle img {
+  padding: 5px;
+}
+.uacf7-multistep-row .steps-form .steps-row::before {
+  width: 2px;
+  height: 100%;
+  left: 15px;
+  top: 0;
+}
+.progressbar-style-3 .steps-form .steps-row .steps-step .btn-circle {
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .uacf7-multistep-progressbar-wraper.progressbar-style-2 {
+    display: none;
+  }
+  .uacf7-multistep-form-wraper {
+    width: 100%;
+  }
+}
+.progressbar-style-3 .step-complete .btn.btn-circle::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  background-size: 60%;
+  background-image: url(https://our-projects.xyz/uacf7/wp-content/plugins/ultimate-addon-multistep-pro/assets/check.svg);
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.progressbar-style-3 .steps-form .steps-row .steps-step .btn-circle {
+  left: inherit;
+  right: 0;
+}
+.uacf7-multistep-row
+  .progressbar-style-3
+  .steps-form
+  .steps-row
+  .steps-step.step-complete
+  .btn-circle {
+  background: unset !important;
+}
+.uacf7-multistep-row .progressbar-style-3 .steps-form .steps-row .steps-step p {
+  margin-left: 0;
+  margin-right: 40px;
+}
+.uacf7-multistep-row .progressbar-style-3 .steps-form .steps-row::before {
+  right: 14px;
+  left: inherit;
+}
+.uacf7-multistep-progressbar-wraper.progressbar-style-3 {
+  padding-right: 25px;
+  justify-content: flex-end;
+}
+.progressbar-style-4 .steps-row .steps-step p {
+  display: none !important;
+}
+.progressbar-style-4 .steps-form {
+  margin-bottom: 30px;
+}
+.progressbar-style-4 .uacf7-multistep-form-wraper {
+  width: 100%;
+}
+.progressbar-style-4 .steps-form .steps-row .steps-step::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #ccc;
+  left: 0;
+  z-index: 1;
+  margin-top: 14px;
+}
+.progressbar-style-4 .steps-form .steps-row .steps-step:first-child::after {
+  width: 50%;
+  right: 0;
+  left: auto;
+}
+.progressbar-style-4 .steps-form .steps-row .steps-step:last-child::after {
+  width: 50%;
+}
+.progressbar-style-4 .steps-form .steps-row::before {
+  display: none !important;
+}
+.progressbar-style-4 .steps-form .steps-row .steps-step .btn-circle {
+  z-index: 2;
+  background-color: #ccc;
+}
+.progressbar-style-4
+  .steps-form
+  .steps-row
+  .steps-step.step-complete
+  .btn-circle {
+  background-color: #02044a !important;
+}
+.progressbar-style-4 .steps-step.step-complete::after {
+  background-color: #02044a !important;
+}
+.progressbar-style-4 .steps-form .steps-row .steps-step .btn-circle img {
+  padding: 5px;
+}
+.progressbar-style-5 .steps-form .steps-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.progressbar-style-5 .steps-form .steps-row .steps-step {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0%;
+  border-bottom: 2px solid #bec2cb;
+  margin: 0 5px;
+}
+.progressbar-style-5 .steps-form .steps-row .steps-step.step-complete {
+  border-bottom: 2px solid #2b3951;
+}
+.progressbar-style-5 .steps-form .steps-row .steps-step:first-child {
+  margin-left: 0;
+}
+.progressbar-style-5 .steps-form .steps-row .steps-step:last-child {
+  margin-right: 0;
+}
+.progressbar-style-5 .steps-form .steps-row .steps-step .btn-circle {
+  display: none;
+}
+.progressbar-style-5 .uacf7-btn-default {
+  color: #444;
+  background-color: #ddd !important;
+}
+.progressbar-style-5 .steps-form .steps-row::before {
+  display: none;
+}
+.progressbar-style-5 .steps-form .steps-row .steps-step p {
+  margin: 0;
+  margin-bottom: 12px;
+  color: #bec2cb;
+  font-size: 20px;
+}
+.progressbar-style-5 .steps-form .steps-row .steps-step.step-complete p {
+  color: #2b3951;
+}
+.current-step-title.progressbar-style-6-title {
+  margin-bottom: 35px;
+  display: block;
+}
+.current-step-title.progressbar-style-6-title .step-title h3 {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.current-step-title.progressbar-style-6-title .step-title p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 24px;
+}
+@media (max-width: 768px) {
+  .progressbar-style-2,
+  .progressbar-style-3,
+  .progressbar-style-6 {
+    display: inline-block !important;
+    text-align: center;
+    margin-right: 20px;
+    padding: 20px 0;
+  }
+  .steps-step p {
+    display: none !important;
+  }
+  .progressbar-style-2 .uacf7-steps.steps-form,
+  .progressbar-style-3 .uacf7-steps.steps-form,
+  .progressbar-style-6 .uacf7-steps.steps-form {
+    display: inline-block !important;
+  }
+  .progressbar-style-2 .steps-row .steps-step,
+  .progressbar-style-3 .steps-row .steps-step,
+  .progressbar-style-6 .steps-row .steps-step {
+    padding: 13px 0px !important;
+  }
+  .progressbar-style-2 .steps-row .steps-step:first-child,
+  .progressbar-style-3 .steps-row .steps-step:first-child,
+  .progressbar-style-6 .steps-row .steps-step:first-child {
+    padding-top: 13px !important;
+  }
+  .progressbar-style-2 .steps-form .steps-row .steps-step .btn-circle,
+  .progressbar-style-3 .steps-form .steps-row .steps-step .btn-circle,
+  .progressbar-style-6 .steps-form .steps-row .steps-step .btn-circle {
+    position: relative;
+  }
+  .progressbar-style-2 .steps-row .steps-step,
+  .progressbar-style-3 .steps-row .steps-step,
+  .progressbar-style-6 .steps-row .steps-step {
+    display: block !important;
+  }
+}
