@@ -3653,7 +3653,7 @@ a.big-img-shadow:hover:before {
   transition: all 0.3s ease;
 }
 #header.header.sticky-resized.is-sticky .flex-column.logo img {
-  max-height: 40px;
+  max-height: 55px;
 }
 .header-main--style-centered .flex-column.header-right,
 .header-main--style-centered .flex-column.logo {
@@ -6625,13 +6625,17 @@ p.comment-awaiting-moderation {
   padding-right: 6%;
 }
 @media only screen and (min-width: 692px) {
-  .next-prev-navigation:not(.next-prev-style--links):not(.next-prev-style--images-centered):not(.next-prev-style--links-centered)
+  .next-prev-navigation:not(.next-prev-style--links):not(
+      .next-prev-style--images-centered
+    ):not(.next-prev-style--links-centered)
     .nav-previous:not(.empty-next-post) {
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
     text-align: right;
   }
-  .next-prev-navigation:not(.next-prev-style--links):not(.next-prev-style--images-centered):not(.next-prev-style--links-centered)
+  .next-prev-navigation:not(.next-prev-style--links):not(
+      .next-prev-style--images-centered
+    ):not(.next-prev-style--links-centered)
     .nav-next:not(.empty-prev-post) {
     -webkit-justify-content: flex-start;
     justify-content: flex-start;
@@ -7279,7 +7283,9 @@ p.comment-awaiting-moderation {
 }
 .underline-input
   .av5-fullscreen-search
-  input.av5-search-input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]) {
+  input.av5-search-input:not([type="submit"]):not([type="checkbox"]):not(
+    [type="radio"]
+  ) {
   height: 90px;
   padding: 0 40px 0 0;
 }

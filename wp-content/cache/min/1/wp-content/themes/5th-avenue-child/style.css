@@ -46,7 +46,9 @@ body.av5-overlay-open .av5-overlay-modal {
   width: 90%;
 }
 body.av5-overlay-open
-  .av5-overlay-modal:not(.av5-overlay-quickview-small):not(.av5-overlay-video-content-small):not(.av5-overlay-small)
+  .av5-overlay-modal:not(.av5-overlay-quickview-small):not(
+    .av5-overlay-video-content-small
+  ):not(.av5-overlay-small)
   .av5-overlay-wrap {
   align-items: flex-start;
   background-color: #fff;
@@ -137,7 +139,34 @@ form.wpcf7-form .uacf7-step.step-content p .wpcf7-spinner {
   .header-wrap
   .header-centered-logo
   .flex-column.logo {
-  max-width: 40px;
+  max-width: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+#page-wrap
+  #header-mobile.sticky.is-sticky
+  .header-mobile-wrap
+  .header-centered-logo
+  .flex-column.logo,
+#page-wrap
+  #header-mobile.sticky.is-sticky
+  .header-wrap
+  .header-centered-logo
+  .flex-column.logo,
+#page-wrap
+  #header.sticky.is-sticky
+  .header-mobile-wrap
+  .header-centered-logo
+  .flex-column.logo,
+#page-wrap
+  #header.sticky.is-sticky
+  .header-wrap
+  .header-centered-logo
+  .flex-column.logo
+  a {
+  display: block;
+  width: 55px;
 }
 #page-wrap .header-main .main-navigation .nav-menu > li > a {
   padding: 18px 0;
